@@ -1,0 +1,53 @@
+.hero {
+    background-color: #ffcc00; /* Gold/Yellow Background */
+    color: #000; /* Black Text */
+    padding: 6rem 0;
+    text-align: center;
+    position: relative; /* To allow absolute positioning inside */
+    z-index: -2;
+    min-height: 35rem;
+    max-height: 35rem;
+    height: 90vh;
+}
+
+.hero-content {
+    max-width: 900px;
+    left: -12rem;
+    top: -3rem;
+    margin: 0 auto;
+    position: relative; /* To position the superhero dog image */
+}
+
+.hero-title {
+    font-size: 3em; /* Made the text a bit larger */
+    margin-bottom: 1em;
+    font-weight: 500; /* Made text bold */
+    position: relative;
+}
+
+.hero-description {
+    font-size: 1em; /* Made the text a bit larger */
+    margin-bottom: 2em;
+}
+
+/* Image of the superhero dog character */
+.hero-image {
+    position: absolute;
+    max-height: 40rem;
+    margin: 2rem;
+    bottom: 0rem; /* Adjust as necessary */
+    right: 1%;
+    width: auto; /* Adjust as necessary */
+}
+
+.cloud-image {
+    margin: 3rem;
+    position: absolute;
+    bottom: 1rem;      
+    left: 0;    
+    width: 100%; 
+    max-width: 45rem;
+    height: auto; 
+    z-index: -1; /* Positioned below the content but above the background color */
+}
+

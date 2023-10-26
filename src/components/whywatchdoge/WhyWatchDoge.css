@@ -1,0 +1,28 @@
+.why-watchdoge-container {
+    background-color: #1a1a2e; /* Or any color you choose from the mock-up */
+    padding: 20px;
+    background-image: url('../../assets/space.png');
+    background-size: cover;
+}
+
+.why-watchdoge-header {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.why-watchdoge-content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.watchdoge-image img {
+max-width: 100%;
+height: auto;
+margin-right: 20px;
+}
+
+.watchdoge-description {
+flex: 1;
+padding: 20px;
+}
