@@ -5,6 +5,7 @@ import Header from './components/header/Header'
 import HeroSection from './components/hero/HeroSection'
 import WhyWatchDoge from './components/whywatchdoge/WhyWatchDoge'
 import FeaturesContainer from './components/feature/FeatureContainer'
+import WatchDogeFlagSection from './components/watchdogeflag/WatchDogeFlagSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <HeroSection />
       <WhyWatchDoge />
       <FeaturesContainer />
+      <WatchDogeFlagSection />
     </>
   )
 }
