@@ -1,0 +1,69 @@
+/* Main Bone Section */
+.bone-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #FEC400; /* or whatever background color you prefer */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Bone Header */
+.bone-header {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    
+    color: #333;
+}
+
+/* Bullet Points */
+.bullet {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.bullet h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    
+}
+
+.bullet p {
+    margin-left: 10px; /* To give a bit of indentation to the description */
+    color: #666; 
+}
+
+/* Footer Section */
+.footer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-header {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    margin-bottom: 20px;
+    color: #666;
+    text-align: center;
+}
+
+.rocket-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bone-container {
+    background-color: #FEC400;
+}

@@ -1,7 +1,7 @@
 .watchdoge-flag-section {
     position: relative;
     width: 100%;
-    height: 900px;
+    height: 800px;
     overflow: hidden;
     background-color: #342B58; /* Sample color, adjust accordingly */
 }
@@ -16,7 +16,7 @@
 .mascot-img {
     position: absolute;
     left: 12%; /* adjust accordingly */
-    bottom: 16%; /* adjust accordingly */
+    bottom: 14%; /* adjust accordingly */
     width: 45%; /* adjust accordingly */
     z-index: 2;
 }
