@@ -5,22 +5,33 @@
     align-items: center;
     padding: 20px;
     background-color: #FEC400; /* or whatever background color you prefer */
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 800px;
 }
 
 /* Bone Header */
 .bone-header {
-    width: 30%;
+    width: 365px;
     padding: 20px;
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     font-size: 1.5em;
     margin-bottom: 20px;
-    
     color: #333;
+    position: relative;
+}
+
+.bone-header img {
+    position: absolute;
+    width: 45%;
+    top: -1px;
+    z-index: 0;
+    left: -10px;
+}
+
+.bone-header p {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    text-align: center;
+    width: 125px;
 }
 
 /* Bullet Points */
@@ -44,8 +55,6 @@
 .footer-section {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .footer-header {
@@ -53,17 +62,32 @@
     margin-bottom: 20px;
 }
 
+.footer-caption {
+    margin-top: 60px;
+    color: black;
+    text-align: start;
+}
+
 .footer-description {
     margin-bottom: 20px;
     color: #666;
-    text-align: center;
+    text-align: start;
 }
 
 .rocket-img {
-    max-width: 100%;
+    width: 500px;
     height: auto;
 }
 
 .bone-container {
     background-color: #FEC400;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.bullet-header {
+    display: flex;
+    width: 100%;
 }

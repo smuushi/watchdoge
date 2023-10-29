@@ -8,7 +8,12 @@ function BoneSection() {
     return (
         <div className='bone-container'>
             <div className="bone-section">
-                <BoneHeader text="骨骼的力量" />
+                <div className='bullet-header'>
+                    <BoneHeader text="骨骼的力量" />
+
+                </div>
+
+               
                 
                 {/* List of Bullets */}
                 {/* Sample Bullet, repeat for each item */}
@@ -16,7 +21,7 @@ function BoneSection() {
                 
                 <FooterSection
                     headerText="证券套保"
-                    description="CEX上市准备：内容内容内容内容内容内容内容..."
+                    description="内容内容内容内容内容内容内容..."
                 />
             </div>
         </div>
