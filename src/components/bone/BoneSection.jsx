@@ -18,6 +18,8 @@ function BoneSection() {
                 {/* List of Bullets */}
                 {/* Sample Bullet, repeat for each item */}
                 <Bullet title="代币经济" description="WDC 代币运作原则的解释..." />
+                <Bullet title="代币经济sdf" description="WDC 代币运作原则的解释..." />
+
                 
                 <FooterSection
                     headerText="证券套保"
