@@ -1,13 +1,21 @@
+.hero-section {
+    width: 100%;
+    background-color: #ffcc00; /* Gold/Yellow Background */
+    display: flex;
+    justify-content: center;
+}
 .hero {
     background-color: #ffcc00; /* Gold/Yellow Background */
     color: #000; /* Black Text */
     padding: 6rem 0;
     text-align: center;
     position: relative; /* To allow absolute positioning inside */
-    z-index: -2;
+    z-index: 0;
     min-height: 35rem;
     max-height: 35rem;
     height: 90vh;
+    max-width: 1568px;
+    width: 100%;
 }
 
 .hero-content {

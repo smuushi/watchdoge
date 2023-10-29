@@ -1,8 +1,32 @@
+.why-watchdoge-section {
+    width: 100%;
+    background-color: #2B2354; /* Or any color you choose from the mock-up */
+    position: relative;
+    display: flex;
+    max-height: 830px;
+    min-height: 780px;
+
+}
+
+.space-background {
+    position: absolute;
+    width: 100%;
+    max-width: fit-content;
+    min-width: fit-content;
+    z-index: 0;
+    bottom: 0;
+    max-height: 780px;
+    height: 780px;
+}
+
 .why-watchdoge-container {
-    background-color: #1a1a2e; /* Or any color you choose from the mock-up */
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
     padding: 20px;
-    background-image: url('../../assets/space.png');
-    background-size: cover;
+    width: 1568px;
+    justify-content: space-around;
+    color: white;
 }
 
 .why-watchdoge-header {
@@ -17,9 +41,11 @@ align-items: center;
 }
 
 .watchdoge-image img {
-max-width: 100%;
+max-width: 60%;
 height: auto;
 margin-right: 20px;
+display: flex;
+align-items: center;
 }
 
 .watchdoge-description {

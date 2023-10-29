@@ -1,6 +1,15 @@
+.flag-section {
+    position: relative;
+    background-color: #342B58; /* Sample color, adjust accordingly */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .watchdoge-flag-section {
     position: relative;
     width: 100%;
+    max-width: 1568px;
     height: 800px;
     overflow: hidden;
     background-color: #342B58; /* Sample color, adjust accordingly */
@@ -8,7 +17,7 @@
 
 .background-img {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     z-index: 1;
 }
