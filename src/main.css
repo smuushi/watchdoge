@@ -9,6 +9,10 @@ body {
     font-weight: 400;
     /* ... any other global styles you want ... */
     min-width: 1180px;
+    padding: 0px;
+    margin: 0px;
+
+
 }
 
 /* Header Component Styles */

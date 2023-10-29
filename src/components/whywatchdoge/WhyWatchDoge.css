@@ -36,7 +36,7 @@ margin-bottom: 20px;
 
 .why-watchdoge-content {
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 align-items: center;
 }
 
