@@ -63,3 +63,7 @@
 .connect-wallet:hover {
   background-color: #555;
 }
+
+.navbar a.active {
+  text-decoration: underline;
+}

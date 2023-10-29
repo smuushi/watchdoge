@@ -1,26 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Header from './components/header/Header'
-import HeroSection from './components/hero/HeroSection'
-import WhyWatchDoge from './components/whywatchdoge/WhyWatchDoge'
-import FeaturesContainer from './components/feature/FeatureContainer'
-import WatchDogeFlagSection from './components/watchdogeflag/WatchDogeFlagSection'
-import BoneSection from './components/bone/BoneSection'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/header/Header';
+import Home from './Home';
+import WIP from './components/_misc/WIP';  // import the WIP component
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <Header />
-      <HeroSection />
-      <WhyWatchDoge />
-      <FeaturesContainer />
-      <WatchDogeFlagSection />
-      <BoneSection />
-    </>
-  )
+    return (
+        <Router>
+            <Header />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
+                <Route path="*" element={<WIP />} /> 
+            </Routes>
+        </Router>
+    );
 }
 
-export default App
+export default App;

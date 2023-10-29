@@ -1,12 +1,13 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
     return (
         <nav className="navbar">
             <ul>
-                <li><a href="#watchdoge">Watchdoge</a></li>
-                <li><a href="#plan">Plan</a></li>
-                <li><a href="#tokenomics">Tokenomics</a></li>
+                <li><NavLink to="/watchdoge" activeClassName="active-link">Watchdoge</NavLink></li>
+                <li><NavLink to="/plan" activeClassName="active-link">Plan</NavLink></li>
+                <li><NavLink to="/tokenomics" activeClassName="active-link">Tokenomics</NavLink></li>
             </ul>
         </nav>
     );

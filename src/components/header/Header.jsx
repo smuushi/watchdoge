@@ -8,7 +8,7 @@ function Header() {
     return (
         <header className="header">
             <div className="container">
-                <a href="#" className="logo">
+                <a href="/" className="logo">
                     <img src={logo} alt="logo" />
                 </a>
                 <Navbar />
