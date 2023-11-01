@@ -12,10 +12,34 @@ function WatchDogeFlagSection() {
                 <img src={watchdoge} alt="WatchDoge Mascot" className="mascot-img" />
                 
                 <div className="text-content">
-                    <h2>代币经济模型</h2>
-                    <p>
-                        在 “WatchDoge” asdfasdfafdasfd, ... (rest of the text)
-                    </p>
+                    <div>
+                        <h2>Tokenomics of WatchDoge (WDC$)</h2>
+
+                    </div>
+
+                    <div className='text-details'>
+                        <p>
+                            <h3> Token Details </h3>
+                            <ul>
+                                <li>Token Name: WatchDoge Coin (WDC$) </li>
+                                <li>Total Supply: 10 billion WDC$ </li>
+                                <li>Address: 0xC61f26685BF7dc3Df4Ece771552a490CD4b46cb6 </li>
+                            </ul>
+                        </p>
+
+                        <p>
+                            <h3> Token Distribution </h3>
+                            <ul>
+                                <li>Community Supply: 75% (7.5 billion WDC$)</li>
+                                <li>Initial DEX Offering (IDO): 5% (500 million WDC$)</li>
+                                <li>Airdrop: 10% (1 billion WDC$)</li>
+                                <li>Marketing (MKT): 5% (500 million WDC$)</li>
+                                <li>Reserved for Development: 4% (400 million WDC$)</li>
+                                <li>Team: 1% (100 million WDC$)</li>
+                            </ul>                                    
+                            
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

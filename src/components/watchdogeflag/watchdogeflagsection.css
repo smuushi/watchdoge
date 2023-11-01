@@ -10,7 +10,7 @@
     position: relative;
     width: 100%;
     max-width: 1568px;
-    height: 800px;
+    height: 1050px;
     overflow: hidden;
     background-color: #342B58; /* Sample color, adjust accordingly */
 }
@@ -32,9 +32,25 @@
 
 .text-content {
     position: absolute;
-    top: 20%; /* adjust accordingly */
+    top: 5%; /* adjust accordingly */
     right: 10%; /* adjust accordingly */
     z-index: 3;
     color: white; /* adjust the text color as needed */
     width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-content h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin:0px;
+}
+
+.text-details {
+
+
+}
+.text-details p{
+    width: 120%;
 }

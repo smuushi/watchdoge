@@ -19,11 +19,12 @@
 }
 
 .hero-content {
-    max-width: 900px;
+    max-width: 600px;
     left: -12rem;
-    top: -3rem;
+    top: 2rem;
     margin: 0 auto;
     position: relative; /* To position the superhero dog image */
+    text-align: start;
 }
 
 .hero-title {

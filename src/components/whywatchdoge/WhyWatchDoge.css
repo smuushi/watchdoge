@@ -12,7 +12,7 @@
     position: absolute;
     width: 100%;
     max-width: fit-content;
-    min-width: fit-content;
+
     z-index: 0;
     bottom: 0;
     left: 0;
@@ -30,9 +30,12 @@
     color: white;
 }
 
-.why-watchdoge-header {
+div.why-watchdoge-header h2{
     text-align: center;
-    margin-bottom: 20px;
+    font-size: 3.5rem;
+    font-weight: 500;
+    min-width: 525px;
+    margin: 12px;
 }
 
 .why-watchdoge-content {
@@ -44,12 +47,42 @@
 .watchdoge-image {
     display: flex;
     justify-content: center;
+    width: 60%;
+    min-width: 600px;
 }
 
 .watchdoge-image img {
-    width: 50%;
+
+    width: 65%;
+    position: relative;
+    left: -40px;
 }
 
 .watchdoge-description {
-    padding: 50px;
+    padding: 20px;
+    position: relative;
+    left: -150px;
+    top: -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.point {
+    font-size: 1.15rem;
+    width: 80%;
+    margin: 0px;
+    margin-left: 130px;
+}
+
+.point h5{
+    color: #FEC400;
+    margin: 0px;
+    padding: 0px;
+}
+
+.point p {
+    margin: 5px
 }
