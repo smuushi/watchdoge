@@ -15,6 +15,10 @@ body {
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Header Component Styles */
 
 /* ... any other component or layout-specific styles ... */

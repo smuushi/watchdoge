@@ -5,9 +5,10 @@ function Navbar() {
     return (
         <nav className="navbar">
             <ul>
-                <li><NavLink to="/watchdoge" activeClassName="active-link">Watchdoge</NavLink></li>
-                <li><NavLink to="/plan" activeClassName="active-link">Plan</NavLink></li>
-                <li><NavLink to="/tokenomics" activeClassName="active-link">Tokenomics</NavLink></li>
+                <li><a href="#why-watchdoge-section">Watchdoge</a></li>
+                <li><a href="#roadmap">Plan</a></li>
+                <li><a href="#tokenomics">Tokenomics</a></li>
+
             </ul>
         </nav>
     );

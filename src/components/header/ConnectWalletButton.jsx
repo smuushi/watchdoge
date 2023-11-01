@@ -2,7 +2,11 @@ import React from 'react';
 
 function ConnectWalletButton() {
     return (
-        <button className="connect-wallet">Connect Wallet</button>
+            <a href="/WatchDogeWhitepaper.pdf">
+                <button className="connect-wallet">
+                        White Paper
+                </button>
+            </a>
     );
 }
 

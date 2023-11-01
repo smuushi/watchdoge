@@ -5,7 +5,7 @@ import spaceImage from "../../assets/space.png";
 
 function WhyWatchDoge() {
   return (
-    <div className='why-watchdoge-section'>
+    <div className='why-watchdoge-section' id='why-watchdoge-section'>
       <img src={spaceImage} alt="space-background" className='space-background' />
       <div className="why-watchdoge-container">
         <div className="why-watchdoge-content">

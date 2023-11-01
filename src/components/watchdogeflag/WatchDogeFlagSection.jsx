@@ -8,7 +8,7 @@ function WatchDogeFlagSection() {
         <div className='flag-section'>
                 <img src={background} alt="Background" className="background-img" />
 
-            <div className="watchdoge-flag-section">
+            <div className="watchdoge-flag-section" id="tokenomics">
                 <img src={watchdoge} alt="WatchDoge Mascot" className="mascot-img" />
                 
                 <div className="text-content">
