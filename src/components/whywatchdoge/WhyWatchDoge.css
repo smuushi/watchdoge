@@ -4,7 +4,7 @@
     position: relative;
     display: flex;
     max-height: 830px;
-    min-height: 780px;
+    min-height: 880px;
     justify-content: center;
 }
 
@@ -30,18 +30,21 @@
     color: white;
 }
 
-div.why-watchdoge-header h2{
+.why-watchdoge-header h2{
     text-align: center;
     font-size: 3.5rem;
     font-weight: 500;
     min-width: 525px;
-    margin: 12px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
 }
 
 .why-watchdoge-content {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 170px;
 }
 
 .watchdoge-image {
@@ -56,17 +59,18 @@ div.why-watchdoge-header h2{
     width: 65%;
     position: relative;
     left: -40px;
+    top: 100px
 }
 
 .watchdoge-description {
     padding: 20px;
     position: relative;
     left: -150px;
-    top: -30px;
+    top: -40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     margin-left: 30px;
 }
 
@@ -74,15 +78,17 @@ div.why-watchdoge-header h2{
     font-size: 1.15rem;
     width: 80%;
     margin: 0px;
-    margin-left: 130px;
+    margin-left: .5rem;
+    margin-bottom: 15px;
 }
 
 .point h5{
     color: #FEC400;
     margin: 0px;
     padding: 0px;
+    margin-bottom: 3px;
 }
 
 .point p {
-    margin: 5px
+    margin: 0px
 }

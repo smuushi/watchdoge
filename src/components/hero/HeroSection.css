@@ -3,6 +3,7 @@
     background-color: #ffcc00; /* Gold/Yellow Background */
     display: flex;
     justify-content: center;
+    height: 650px;
 }
 .hero {
     background-color: #ffcc00; /* Gold/Yellow Background */
@@ -11,9 +12,7 @@
     text-align: center;
     position: relative; /* To allow absolute positioning inside */
     z-index: 0;
-    min-height: 35rem;
-    max-height: 35rem;
-    height: 90vh;
+
     max-width: 1568px;
     width: 100%;
 }
@@ -21,7 +20,7 @@
 .hero-content {
     max-width: 600px;
     left: -12rem;
-    top: 2rem;
+    top: -3rem;
     margin: 0 auto;
     position: relative; /* To position the superhero dog image */
     text-align: start;
@@ -30,7 +29,7 @@
 .hero-title {
     font-size: 3em; /* Made the text a bit larger */
     margin-bottom: 1em;
-    font-weight: 500; /* Made text bold */
+    font-weight: 600; /* Made text bold */
     position: relative;
 }
 
@@ -42,11 +41,12 @@
 /* Image of the superhero dog character */
 .hero-image {
     position: absolute;
-    max-height: 40rem;
+    max-height: 33rem;
     margin: 2rem;
     bottom: 0rem; /* Adjust as necessary */
     right: 1%;
     width: auto; /* Adjust as necessary */
+
 }
 
 .cloud-image {

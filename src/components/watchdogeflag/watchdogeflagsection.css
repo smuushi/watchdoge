@@ -24,33 +24,49 @@
 
 .mascot-img {
     position: absolute;
-    left: 12%; /* adjust accordingly */
-    bottom: 14%; /* adjust accordingly */
-    width: 45%; /* adjust accordingly */
+    left: 10%; /* adjust accordingly */
+    bottom: 10%; /* adjust accordingly */
+    width: 36%; /* adjust accordingly */
     z-index: 2;
 }
 
 .text-content {
     position: absolute;
     top: 5%; /* adjust accordingly */
-    right: 10%; /* adjust accordingly */
+    right: 20%; /* adjust accordingly */
     z-index: 3;
     color: white; /* adjust the text color as needed */
-    width: 400px;
+    width: 600px;
     display: flex;
     flex-direction: column;
+    padding-right: 4rem;
 }
 
 .text-content h2 {
     font-size: 2.5rem;
     font-weight: 500;
     margin:0px;
+    min-width: 1000px;
+    position: relative;
 }
 
 .text-details {
 
 
 }
-.text-details p{
-    width: 120%;
+
+li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+
+.text-details section{
+    width: 100%;
 }

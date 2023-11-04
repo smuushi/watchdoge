@@ -18,16 +18,16 @@ function WatchDogeFlagSection() {
                     </div>
 
                     <div className='text-details'>
-                        <p>
+                        <section>
                             <h3> Token Details </h3>
                             <ul>
                                 <li>Token Name: WatchDoge Coin (WDC$) </li>
                                 <li>Total Supply: 10 billion WDC$ </li>
                                 <li>Address: 0xC61f26685BF7dc3Df4Ece771552a490CD4b46cb6 </li>
                             </ul>
-                        </p>
+                        </section>
 
-                        <p>
+                        <section>
                             <h3> Token Distribution </h3>
                             <ul>
                                 <li>Community Supply: 75% (7.5 billion WDC$)</li>
@@ -38,7 +38,7 @@ function WatchDogeFlagSection() {
                                 <li>Team: 1% (100 million WDC$)</li>
                             </ul>                                    
                             
-                        </p>
+                        </section>
                     </div>
                 </div>
             </div>

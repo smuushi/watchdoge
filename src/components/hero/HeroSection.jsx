@@ -11,7 +11,7 @@ const HeroSection = () => {
                 <img src={cloudImage} alt="Cloud Background" className="cloud-image" />
                 <div className="hero-content">
                     <h1 className="hero-title">
-                        Welcome To WatchDoge of Web3 World!
+                        Welcome To Web3's Watchdoge!
                     </h1>
 
                     <p className="hero-description">
