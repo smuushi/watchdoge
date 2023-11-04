@@ -4,6 +4,8 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .features-section {
@@ -13,7 +15,7 @@
     justify-content: center;
     position: relative;
     top: -2px;
-    min-width: 1181px;
+    min-width: 320px;
 }
 
 .header-tab {
@@ -145,4 +147,26 @@
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+
+@media screen and (max-width: 767px) {
+    .features-container {
+        max-width: none; /* Reset max-width for smaller screens */
+        padding: 10px; /* Adjust padding for mobile */
+    }
+
+    .header-tab {
+        width: 100%;
+        left: 0;
+    }
+
+    .image-container {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 100%;
+        max-width: 400px; /* Adjust as needed */
+        margin: 0 auto; /* Center the image */
+    }
 }

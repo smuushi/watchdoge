@@ -15,6 +15,13 @@ body {
 
 }
 
+@media (max-width: 768px) {
+    body {
+        min-width: auto; /* Set min-width to whatever value is suitable for mobile view */
+        width: 100vw;
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }

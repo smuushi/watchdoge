@@ -78,3 +78,69 @@ a button {
   text-decoration: underline;
   font-weight: 700;
 }
+
+
+.menu-icon {
+  display: none; /* Initially hide the menu icon */
+  cursor: pointer;
+}
+
+/* Style for the menu icon bars */
+.menu-icon .bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.menu-icon.active .bar {
+  background-color: #fff; /* Change color when active (menu is open) */
+}
+
+
+
+/* Add a media query for smaller screens (adjust as needed) */
+@media screen and (max-width: 768px) {
+  .navbar ul {
+    display: none; /* Hide the navigation links */
+    flex-direction: column; /* Change to a vertical layout */
+    text-align: center; /* Center-align the links */
+
+  }
+
+  .navbar li {
+    margin: 10px 0; /* Add some spacing between the links */
+  }
+
+  .navbar.active ul {
+    display: flex; /* Show the links in a column layout */
+    justify-content: center; /* Center-align the links */
+    position: absolute;
+    z-index: 2;
+    flex-direction: row;
+    top: 85px;
+    left: 13%;
+  }
+  /* Style for the menu icon bars */
+  .menu-icon .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #333;
+    transition: background-color 0.3s ease;
+  }
+
+  .menu-icon {
+    display: block; /* Initially hide the menu icon */
+    cursor: pointer;
+  }
+
+  .menu-icon.active .bar {
+    background-color: #fff; /* Change color when active (menu is open) */
+  }
+}
+
+

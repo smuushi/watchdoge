@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     height: 650px;
+    position: relative;
+    top: -1px;
 }
 .hero {
     background-color: #ffcc00; /* Gold/Yellow Background */
@@ -12,7 +14,7 @@
     text-align: center;
     position: relative; /* To allow absolute positioning inside */
     z-index: 0;
-
+    
     max-width: 1568px;
     width: 100%;
 }
@@ -54,9 +56,47 @@
     position: absolute;
     bottom: 1rem;      
     left: 0;    
-    width: 100%; 
-    max-width: 45rem;
+    width: 50%; 
+    max-width: 45re m;
     height: auto; 
     z-index: -1; /* Positioned below the content but above the background color */
 }
 
+
+
+
+/* Existing styles... */
+
+/* Add a media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    .hero-content {
+      max-width: none;
+      left: 0;
+      text-align: center;
+      margin: 0 auto;
+    } 
+    .hero-title {
+      font-size: 2em;
+    }
+  
+    .hero-description {
+      font-size: 1em;
+    }
+  
+    .hero-image {
+      position: static;
+      max-height: none;
+      margin: 1rem 0;
+      width: 100%;
+    }
+  
+    .cloud-image {
+      max-width: none;
+      margin: 2rem 0;
+      position: relative;
+      bottom: 0;
+      left: auto;
+      display: none;
+    }
+  }
+  

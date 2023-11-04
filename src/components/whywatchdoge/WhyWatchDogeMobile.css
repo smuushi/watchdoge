@@ -1,0 +1,19 @@
+.why-watchdoge-section-mobile {
+    width: 100%;
+    background-color: #2B2354;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 0px;
+}
+
+.watchdoge-image-mobile img {
+    max-width: 80%;
+}
+
+.watchdoge-description-mobile {
+    text-align: center;
+}

@@ -1,15 +1,27 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useState } from 'react';
 
 function Navbar() {
-    return (
-        <nav className="navbar">
-            <ul>
-                <li><a href="#why-watchdoge-section">Watchdoge</a></li>
-                <li><a href="#roadmap">Plan</a></li>
-                <li><a href="#tokenomics">Tokenomics</a></li>
+    const [isActive, setIsActive] = useState(false);
 
-            </ul>
+    const toggleNavbar = () => {
+        setIsActive(!isActive);
+    }
+
+    return (
+        <nav className={`navbar ${isActive ? 'active' : ''}`}>
+            <div className="container">
+
+                <div className="menu-icon" onClick={toggleNavbar}>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                </div>
+                <ul>
+                    <li><a href="#why-watchdoge-section">Watchdoge</a></li>
+                    <li><a href="#roadmap">Plan</a></li>
+                    <li><a href="#tokenomics">Tokenomics</a></li>
+                </ul>
+            </div>
         </nav>
     );
 }

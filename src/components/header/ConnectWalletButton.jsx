@@ -1,12 +1,12 @@
 import React from 'react';
 
-function ConnectWalletButton() {
+function ConnectWalletButton({ isActive }) {
     return (
-            <a href="https://watch-doge.gitbook.io/watchdogecoin-whitepaper/">
-                <button className="connect-wallet">
-                        White Paper
-                </button>
-            </a>
+        <a href="https://watch-doge.gitbook.io/watchdogecoin-whitepaper/">
+            <button className={`connect-wallet ${isActive ? 'active' : ''}`}>
+                White Paper
+            </button>
+        </a>
     );
 }
 
