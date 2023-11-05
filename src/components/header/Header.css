@@ -103,6 +103,10 @@ a button {
 
 /* Add a media query for smaller screens (adjust as needed) */
 @media screen and (max-width: 768px) {
+  
+  .header {
+    width: auto;
+  }
   .navbar ul {
     display: none; /* Hide the navigation links */
     flex-direction: column; /* Change to a vertical layout */

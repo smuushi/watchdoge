@@ -7,7 +7,12 @@ function Navbar() {
         setIsActive(!isActive);
     }
 
+    const isMobile = window.innerWidth < 768; // Define a threshold for mobile view (adjust as needed)
+
+
     return (
+
+      
         <nav className={`navbar ${isActive ? 'active' : ''}`}>
             <div className="container">
 

@@ -17,7 +17,7 @@
 
 .background-img {
     position: absolute;
-    bottom: 0px;
+    bottom: -1px;
     width: 100%;
     z-index: 1;
 }
@@ -50,10 +50,7 @@
     position: relative;
 }
 
-.text-details {
 
-
-}
 
 li {
     list-style: none;
@@ -69,4 +66,36 @@ ul {
 
 .text-details section{
     width: 100%;
+}
+
+
+@media screen and (max-width: 767px) {
+    .mascot-img {
+        width: 60%; /* Adjust size for mobile */
+        left: 50%;
+        bottom: 10px;
+        transform: translateX(-50%); /* Center align image */
+    }
+
+    .flag-section {
+        width: 100.2vw;
+    }
+
+    .watchdoge-flag-section {
+        height: 780px;
+    }
+
+    .text-content {
+        position: relative; /* Changed to relative */
+        top: 20px; /* Adjust as needed */
+        right: 0; /* Reset for mobile */
+        width: 100%; /* Full width on mobile */
+        padding: 20px; /* Adjust padding */
+        margin-top: 10%; /* Adjusted to not overlap with the image */
+    }
+
+    .text-content h2 {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+        min-width: 0; /* Reset min-width */
+    }
 }

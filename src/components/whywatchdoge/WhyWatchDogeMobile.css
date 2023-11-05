@@ -16,4 +16,14 @@
 
 .watchdoge-description-mobile {
     text-align: center;
+    width: 100%;
+}
+
+.why-watchdoge-header {
+    width: 100%;
+
+}
+
+.why-watchdoge-header h2{
+    width: 500px;
 }

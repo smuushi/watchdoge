@@ -15,16 +15,13 @@ function Header() {
             {isMobile? 
             (<>
                 <header className="header">
-                    {/* <div className="container">
+                    <div className="container">
                         <Navbar />
                         <a href="/" className="logo">
                             <img src={logo} alt="logo" />
                         </a>
                         <ConnectWalletButton />
-                    </div> */}
-                    MOBILE VIEW IN PROGRESS! :) <br/>
-                    Please swap to desktop view for full view.
-                    <ConnectWalletButton />
+                    </div>
 
                 </header>
             </>) 

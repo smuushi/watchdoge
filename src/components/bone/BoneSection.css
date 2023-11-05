@@ -127,3 +127,49 @@
 }
 
 
+@media screen and (max-width: 767px) {
+    .bone-container {
+        width: 100%;
+    }
+    .bone-section {
+        width: 100%;
+    }
+
+    .bone-header {
+        padding-bottom: 25px;
+        width: 100%;
+    }
+
+    .bone-header p {
+        width: 90px;
+    }
+
+    .bullet-header {
+        flex-direction: column; /* Stack header and bullets vertically */
+    }
+
+    .bullet h3 {
+        width: 100%; /* Adjust width to fit container */
+    }
+    .bullet {
+        width: 100%;
+    }
+    .bullet p {
+        width: 87%;
+    }
+
+    .footer-section {
+        flex-direction: column-reverse; /* Stack footer content above the image */
+        width: 100%;
+    }
+
+    .footer-section div {
+        width: 100%; /* Full width for text containers */
+        padding: 0; /* Padding for text containers */
+    }
+
+    .rocket-img {
+        margin-top: 20px; /* Add margin above the image */
+        display: none;
+    }
+}

@@ -92,3 +92,73 @@
 .point p {
     margin: 0px
 }
+
+
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .why-watchdoge-section {
+        max-height: 100%; /* Remove fixed height constraint */
+        min-height: auto; /* Allow the container to grow as needed */
+        flex-direction: column; /* Stack children vertically */
+        align-items: center; /* Align children in the center */
+        overflow: hidden;  
+        width: 100.2vw;
+    }
+
+    .space-background {
+        max-height: 400px; /* Decrease the height of the background image */
+        height: 400px;
+        width: auto;
+        position: absolute;
+    }
+
+    .why-watchdoge-container {
+        width: 100%; /* Full width */
+        padding: 0px; /* Reduced padding */
+    }
+
+    .why-watchdoge-header h2 {
+        font-size: 2rem; /* Smaller font size for headers */
+        min-width: 0; /* Remove minimum width constraint */
+    }
+
+    .why-watchdoge-content {
+        flex-direction: column; /* Stack image and description vertically */
+        margin-bottom: 50px; /* Less margin */
+    }
+
+    .watchdoge-image {
+        width: 100%; /* Full width */
+        min-width: 0; /* Remove minimum width constraint */
+    }
+
+    .watchdoge-image img {
+        width: 80%; /* Make the image slightly smaller */
+        left: 0; /* Reset left positioning */
+        top: 50px; /* Less offset from the top */
+    }
+
+    .watchdoge-description {
+        left: 0; /* Reset left positioning */
+        top: 20px; /* Less offset from the top */
+        align-items: center; /* Center align items */
+        padding: 15px; /* Adjust padding */
+    }
+
+    .point {
+        font-size: 1rem; /* Smaller font size */
+        width: 100%; /* Full width */
+        margin-left: 0; /* Reset margin-left */
+        margin-bottom: 10px; /* Less margin-bottom */
+    }
+
+    .point h5 {
+        margin-bottom: 2px; /* Less margin-bottom */
+    }
+
+    /* Adjust paragraph styles if necessary */
+    .point p {
+        /* Any additional mobile-specific paragraph styles here */
+    }
+}

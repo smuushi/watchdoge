@@ -169,4 +169,47 @@
         max-width: 400px; /* Adjust as needed */
         margin: 0 auto; /* Center the image */
     }
+
+    .content {
+        width: 100%; /* Full width */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .features-list {
+        grid-template-columns: 1fr; /* Stack the feature boxes on top of each other */
+        gap: 15px; /* Reduce gap */
+    }
+
+    .feature-box {
+        width: auto; /* Make width responsive */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .header-tab h2 {
+        font-size: 2rem; /* Smaller font size for h2 */
+    }
+
+    .feature-title {
+        font-size: 0.9rem; /* Smaller font size for feature titles */
+    }
+
+    .feature-description {
+        font-size: 0.8rem; /* Smaller font size for descriptions */
+    }
+    .image-container img {
+        max-width: 100%; /* Ensure the image is fully contained within its element */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .header-tab {
+        left: auto;
+        bottom: auto;
+        right: 10px; /* Adjust as needed, or center it */
+        margin-bottom: 10px; /* Reduce margin */
+    }
+
+    .features-section {
+        width: 100%; /* Make sure this is fully responsive */
+        min-width: 0; /* Remove min-width constraint */
+    }
 }
