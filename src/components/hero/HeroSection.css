@@ -71,13 +71,18 @@
 @media (max-width: 768px) {
     .hero-section{
       width: 100.2vw;
+      overflow: hidden;
+      height: 700px;
     }
-
+    .hero {
+      padding: 70px 0;
+    }
     .hero-content {
       max-width: none;
       left: 0;
       text-align: center;
       margin: 0 auto;
+      padding: 0 30px
     } 
     .hero-title {
       font-size: 2em;
@@ -88,19 +93,21 @@
     }
   
     .hero-image {
-      position: static;
+      position: relative;
       max-height: none;
       margin: 1rem 0;
-      width: 100%;
+      width: 70%;
+      top: -80px;
+      left: 60px;
     }
   
     .cloud-image {
       max-width: none;
       margin: 2rem 0;
-      position: relative;
-      bottom: 0;
-      left: auto;
-      display: none;
+      position: absolute;
+      top: 350px;
+      left: 0px;
+      width: 70%;
     }
   }
   
