@@ -5,16 +5,42 @@ import ConnectWalletButton from './ConnectWalletButton';
 import logo from "../../assets/logo.png"
 
 function Header() {
+
+    const isMobile = window.innerWidth < 768; // Define a threshold for mobile view (adjust as needed)
+
+
+
     return (
-        <header className="header">
-            <div className="container">
-                <a href="/" className="logo">
-                    <img src={logo} alt="logo" />
-                </a>
-                <Navbar />
-                <ConnectWalletButton />
-            </div>
-        </header>
+        <>
+            {isMobile? 
+            (<>
+                <header className="header">
+                    {/* <div className="container">
+                        <Navbar />
+                        <a href="/" className="logo">
+                            <img src={logo} alt="logo" />
+                        </a>
+                        <ConnectWalletButton />
+                    </div> */}
+                    MOBILE VIEW IN PROGRESS! :) <br/>
+                    Please swap to desktop view for full view.
+                    <ConnectWalletButton />
+
+                </header>
+            </>) 
+            : 
+            (<>
+                <header className="header">
+                    <div className="container">
+                        <a href="/" className="logo">
+                            <img src={logo} alt="logo" />
+                        </a>
+                        <Navbar />
+                        <ConnectWalletButton />
+                    </div>
+                </header>
+            </>)}
+        </>
     );
 }
 
