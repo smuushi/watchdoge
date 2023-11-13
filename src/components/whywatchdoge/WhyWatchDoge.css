@@ -134,16 +134,19 @@
     }
 
     .watchdoge-image img {
-        width: 80%; /* Make the image slightly smaller */
-        left: 0; /* Reset left positioning */
-        top: 50px; /* Less offset from the top */
+        width: 50%; /* Make the image slightly smaller */
+        position: absolute;
+        left: 35px; /* Reset left positioning */
+        bottom: 100px; /* Less offset from the top */
+        top: 500px;
     }
 
     .watchdoge-description {
-        left: 0; /* Reset left positioning */
+        left: -5px; /* Reset left positioning */
         top: 20px; /* Less offset from the top */
         align-items: center; /* Center align items */
         padding: 15px; /* Adjust padding */
+        margin-bottom: 285px;
     }
 
     .point {

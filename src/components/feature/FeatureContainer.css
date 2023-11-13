@@ -153,15 +153,21 @@
 @media screen and (max-width: 767px) {
     .features-container {
         max-width: none; /* Reset max-width for smaller screens */
-        padding: 10px; /* Adjust padding for mobile */
+        padding: 25px; /* Adjust padding for mobile */
     }
 
     .header-tab {
-        width: 100%;
-        left: 0;
+        width: 75%;
+        height: auto;
+        top: 50px;
+        padding: 20px;
+        right: -1px;
+        left: auto;
     }
 
+
     .image-container {
+        display: none;
         position: relative;
         top: auto;
         left: auto;
@@ -190,22 +196,15 @@
     }
 
     .feature-title {
-        font-size: 0.9rem; /* Smaller font size for feature titles */
+        font-size: 1rem; /* Smaller font size for feature titles */
     }
 
     .feature-description {
-        font-size: 0.8rem; /* Smaller font size for descriptions */
+        font-size: 1rem; /* Smaller font size for descriptions */
     }
     .image-container img {
         max-width: 100%; /* Ensure the image is fully contained within its element */
         height: auto; /* Maintain aspect ratio */
-    }
-
-    .header-tab {
-        left: auto;
-        bottom: auto;
-        right: 10px; /* Adjust as needed, or center it */
-        margin-bottom: 10px; /* Reduce margin */
     }
 
     .features-section {

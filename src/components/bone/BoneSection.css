@@ -136,12 +136,14 @@
     }
 
     .bone-header {
-        padding-bottom: 25px;
+        padding-bottom: 35px;
         width: 100%;
+        font-size: 1.75rem;
     }
 
     .bone-header p {
-        width: 90px;
+        width: 500px;
+        padding-bottom: 40px;
     }
 
     .bullet-header {
@@ -163,13 +165,10 @@
         width: 100%;
     }
 
-    .footer-section div {
-        width: 100%; /* Full width for text containers */
-        padding: 0; /* Padding for text containers */
-    }
 
     .rocket-img {
         margin-top: 20px; /* Add margin above the image */
         display: none;
     }
+
 }

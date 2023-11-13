@@ -42,9 +42,9 @@ function FeaturesContainer() {
             <div className="features-container">
                 <div className="header-tab">
                     <h2>Roadmap</h2>
-                <div className="image-container">
-                    <img src={suitdogeImage} alt="Suit Image" />
-                </div>
+                    <div className="image-container">
+                        <img src={suitdogeImage} alt="Suit Image" />
+                    </div>
                 </div>
                 <div className="content">
                     <div className="features-list">
