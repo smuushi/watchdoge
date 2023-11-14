@@ -13,7 +13,7 @@ const HeroSection = () => {
                         Welcome To Web3's Watchdoge!
                     </h1>
                     <p className="hero-description">
-                        Web3 Watchdoge is the mysterious superhero in the digital world! Our mission is to guard the digital universe and let every project know: if you plan to do bad things, we will become your worst nightmare
+                        Web3 Watchdoge is the mysterious superhero in the digital world! Our mission is to guard the digital universe and let every project know: if you plan to do bad things, we will become your worst nightmare.
                     </p>
                 </div>
                 <img src={herodogeImage} alt="Superhero Dog" className="hero-image" />

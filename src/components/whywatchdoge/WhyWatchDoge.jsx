@@ -21,7 +21,7 @@ function WhyWatchDoge() {
 
             <div className='point'>
               <h5>Our Mission:</h5>
-              <p>Become the most righteous Meme in the universe</p>
+              <p>Become the most righteous Meme in the universe.</p>
             </div>
             <div className='point'>
               <h5>Our Vision:</h5>
@@ -40,7 +40,7 @@ function WhyWatchDoge() {
               </p>
             </div>
 
-            {/* Repeat the above for additional paragraphs of content */}
+
           </div>
         </div>
       </div>
