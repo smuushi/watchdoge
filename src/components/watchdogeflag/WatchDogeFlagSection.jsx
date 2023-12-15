@@ -13,29 +13,27 @@ function WatchDogeFlagSection() {
                 
                 <div className="text-content">
                     <div>
-                        <h2>Tokenomics of WatchDoge (WDC$)</h2>
+                        <h2>Tokenomics of Watch Meme Coin</h2>
 
                     </div>
 
                     <div className='text-details'>
                         <section>
-                            <h3> Token Details </h3>
+                            <h3> Token Details: </h3>
                             <ul>
-                                <li>Token Name: WatchDoge Coin (WDC$) </li>
-                                <li>Total Supply: 10 billion WDC$ </li>
-                                <li>Address: 0xC61f26685BF7dc3Df4Ece771552a490CD4b46cb6 </li>
+                                <li>Token Name: WatchMeme Coin (WMC$) </li>
+                                <li>Total Supply: 10 billion WMC$ </li>
                             </ul>
                         </section>
 
                         <section>
-                            <h3> Token Distribution </h3>
+                            <h3> Token Distribution: </h3>
                             <ul>
-                                <li>Community Supply: 75% (7.5 billion WDC$)</li>
-                                <li>Initial DEX Offering (IDO): 5% (500 million WDC$)</li>
-                                <li>Airdrop: 10% (1 billion WDC$)</li>
-                                <li>Marketing (MKT): 5% (500 million WDC$)</li>
-                                <li>Reserved for Development: 4% (400 million WDC$)</li>
-                                <li>Team: 1% (100 million WDC$)</li>
+                                <li>30%  - Community Rewards</li>
+                                <li>25% - WatchMeme DAO</li>
+                                <li>15% - Initial Liquidity</li>
+                                <li>15% - CEX Liquidity</li>
+                                <li>15% - Core Contributors</li>
                             </ul>                                    
                             
                         </section>

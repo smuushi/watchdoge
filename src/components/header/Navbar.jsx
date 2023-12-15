@@ -22,7 +22,7 @@ function Navbar() {
                     <span className="bar"></span>
                 </div>
                 <ul>
-                    <li><a href="#why-watchdoge-section">Watchdoge</a></li>
+                    <li><a href="#why-watchdoge-section">Watch Meme</a></li>
                     <li><a href="#roadmap">Plan</a></li>
                     <li><a href="#tokenomics">Tokenomics</a></li>
                 </ul>

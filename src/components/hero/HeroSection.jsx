@@ -10,10 +10,10 @@ const HeroSection = () => {
                 <img src={cloudImage} alt="Cloud Background" className="cloud-image" />
                 <div className="hero-content">
                     <h1 className="hero-title">
-                        Welcome To Web3's Watchdoge!
+                    Welcome to Watch Meme DAO! 
                     </h1>
                     <p className="hero-description">
-                        Web3 Watchdoge is the mysterious superhero in the digital world! Our mission is to guard the digital universe and let every project know: if you plan to do bad things, we will become your worst nightmare.
+                    WatchMeme DAO is your one-stop platform for all things meme-tastic, from the latest news to epic discussions and a thriving meme community. 
                     </p>
                 </div>
                 <img src={herodogeImage} alt="Superhero Dog" className="hero-image" />

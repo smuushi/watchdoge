@@ -26,7 +26,7 @@
     position: absolute;
     left: 10%; /* adjust accordingly */
     bottom: 10%; /* adjust accordingly */
-    width: 36%; /* adjust accordingly */
+    width: 25%; /* adjust accordingly */
     z-index: 2;
 }
 
@@ -71,8 +71,8 @@ ul {
 
 @media screen and (max-width: 767px) {
     .mascot-img {
-        width: 60%; /* Adjust size for mobile */
-        left: 50%;
+        width: 40%; /* Adjust size for mobile */
+        left: 70%;
         bottom: 10px;
         transform: translateX(-50%); /* Center align image */
     }

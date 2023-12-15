@@ -68,16 +68,18 @@
 }
 
 .image-container img {
-    max-width: 100%;
+    max-width: 120%;
     height: auto;
+    position: relative;
+    left: -90px;
+    top: 10px;
 }
 
 .features-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
-    grid-template-rows: repeat(2, 1fr);   /* Two rows with equal height */
-    z-index: 1;
-    gap: 25px
+    gap: 25px;
+    justify-items: center; /* Center grid items */
 }
 
 .feature-box {
@@ -86,15 +88,18 @@
     padding-right: 20px;
     border-radius: 30px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a slight shadow */
-    width: 345px; /* Adjust width as needed */
     display: flex;
     flex-direction: column;
     border: 1px solid black;
     justify-content: start;
     align-items: center;
     padding-top: 20px;
+    width: 345px; /* Adjust width as needed */
 }
 
+.feature-box:last-child:nth-child(odd) {
+    grid-column: 1 / -1; /* Make the last box span full width if it's the only one in its row */
+}
 
 .feature-titles {
     background-color: black;
@@ -104,8 +109,8 @@
     justify-content: space-around;
     align-items: center;
     border-radius: 20px;
-    height: 50px;
-    padding: 5px;
+    height: auto;
+    padding: 10px;
 }
 
 
@@ -121,6 +126,13 @@
 }
 
 .feature-title.title-1 {
+    color: white; /* Second title color */
+    margin: 0px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.feature-title.title-2 {
     color: white; /* Second title color */
     margin: 0px;
     font-size: 1.1rem;
@@ -174,6 +186,7 @@
         width: 100%;
         max-width: 400px; /* Adjust as needed */
         margin: 0 auto; /* Center the image */
+
     }
 
     .content {
@@ -205,6 +218,7 @@
     .image-container img {
         max-width: 100%; /* Ensure the image is fully contained within its element */
         height: auto; /* Maintain aspect ratio */
+        display: none;
     }
 
     .features-section {

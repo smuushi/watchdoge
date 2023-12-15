@@ -17,8 +17,8 @@
     padding-bottom: 65px;
     color: black;
     position: relative;
-
     margin-bottom: 40px;
+    display: flex;
 }
 
 .bone-header img {
@@ -36,6 +36,13 @@
     text-align: start;
     width: 100%;
     font-weight: 600;
+}
+.bone-header section {
+    position: relative;
+    z-index: 1;
+    top: 80px;
+    width: 500px;
+    font-weight: 500;
 }
 
 /* Bullet Points */
@@ -106,6 +113,7 @@
     text-align: start;
     margin-top: 0px;
     margin-bottom: 25px;
+    width: 400px;
 }
 
 .rocket-img {
@@ -148,6 +156,14 @@
 
     .bullet-header {
         flex-direction: column; /* Stack header and bullets vertically */
+    }
+
+    .bone-header section {
+        position: relative;
+        z-index: 1;
+        top: 75px;
+        width: 500px;
+        font-weight: 500;
     }
 
     .bullet h3 {
