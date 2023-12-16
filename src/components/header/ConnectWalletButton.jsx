@@ -11,14 +11,14 @@ function ConnectWalletButton({ isActive }) {
         <> 
             <ul className='externalLinks'>
                 <li>
-                    <a href="">
+                    <a href="https://twitter.com/WatchMemeDAO">
                         <button className="githubSvg">
                             <img src={xicon} alt="xicon" />
                         </button>
                     </a>
                 </li>
                 <li>
-                    <a href="https://watch-doge.gitbook.io/watchdogecoin-whitepaper/">
+                    <a href="https://t.me/WatchMemeDAO">
                         <button className="githubSvg">
                             <img src={telegramicon} alt="telegram" />
                         </button>
@@ -33,7 +33,7 @@ function ConnectWalletButton({ isActive }) {
                     </a>
                 </li> */}
                 <li>
-                    <a href="https://watch-doge.gitbook.io/watchdogecoin-whitepaper/">
+                    <a href=" https://medium.com/@WatchMemeDAO">
                         <button className="githubSvg">
                             <img src={mediaIcon} alt="githubicon" />
                         </button>
