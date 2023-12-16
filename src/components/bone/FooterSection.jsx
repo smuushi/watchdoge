@@ -5,8 +5,8 @@ import BoneHeader from './BoneHeader';
 function FooterSection({ headerText, description }) {
     return (
         <div className="footer-section">
-            <div>
-                <h1>{headerText}</h1>
+            <div className='footer-content'>
+                <h2>{headerText}</h2>
                 <h6 className='footer-caption'>Follow Us Everywhere</h6>
                 <p className="footer-description">We'll send you meme analysis, the hottest meme of the week, and "blacklist" tips for avoiding those cringe ones.</p>
 
@@ -24,7 +24,7 @@ function FooterSection({ headerText, description }) {
                 <p className="footer-description">Token launch dates, treat schedules, and everything you need to be wallet-ready! We'll keep you updated on all the exciting stuff, so you don't miss a beat.</p>
 
             </div>
-            <div>
+            <div className='footer-img'>
                 <img src={rocket} alt="Rocket" className="rocket-img" />
             </div>
         </div>

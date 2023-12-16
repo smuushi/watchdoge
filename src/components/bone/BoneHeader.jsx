@@ -5,9 +5,9 @@ function BoneHeader({ text }) {
     return (
         <div className="bone-header">
             {/* <img src={boneBackground} alt="bonebackground" /> */}
-            <p>
+            <h2>
                 {text} 
-            </p>
+            </h2>
             <section>
             The $WatchMeme token is the paw-some heart of the WatchMeme ecosystem. It has these perfect features:
             </section>

@@ -71,7 +71,7 @@ a button {
   padding: 10px 15px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 
 }
 
@@ -81,16 +81,24 @@ ul.externalLinks {
   gap: 5px;
 }
 
+ul.externalLinks li:not(:last-child){
+  padding-top: 4px;
+}
+
+ul.externalLinks li:nth-last-child(2){
+  margin-right: 5px;
+}
+
 .githubSvg {
   border: none;
   border-radius: 1000px;
-  margin: 0px;
+  margin: 0px 3px;
   padding: 0px;
   background-color:#55555500;
 }
 
 .githubSvg img {
-  height: 40px;
+  height: 32px;
   width: auto;
 }
 

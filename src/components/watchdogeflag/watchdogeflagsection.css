@@ -32,8 +32,8 @@
 
 .text-content {
     position: absolute;
-    top: 5%; /* adjust accordingly */
-    right: 20%; /* adjust accordingly */
+    top: 12%; /* adjust accordingly */
+    right: 15%; /* adjust accordingly */
     z-index: 3;
     color: white; /* adjust the text color as needed */
     width: 600px;
@@ -50,13 +50,20 @@
     position: relative;
 }
 
+.text-content h3{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
 
+.text-content ul{
+    margin-top: 10px;
+}
 
 li {
     list-style: none;
     margin: 0px;
     padding: 0px;
-    
+    font-size: 1.1rem;
 }
 
 ul {
@@ -68,6 +75,9 @@ ul {
     width: 100%;
 }
 
+.text-details section:first-child{
+    margin-bottom: 40px;
+}
 
 @media screen and (max-width: 767px) {
     .mascot-img {

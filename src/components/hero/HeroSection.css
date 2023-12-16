@@ -30,7 +30,7 @@
 
 .hero-title {
     font-size: 3em; /* Made the text a bit larger */
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     font-weight: 600; /* Made text bold */
     position: relative;
 }

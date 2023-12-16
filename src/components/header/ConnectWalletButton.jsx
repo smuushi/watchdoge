@@ -1,16 +1,17 @@
 import React from 'react';
 
-import githubicon from "../../assets/github-mark.png";
-import xicon from "../../assets/x-black.png";
-import telegramicon from "../../assets/telegram.png";
-
+// import githubicon from "../../assets/github-mark.png";
+import xicon from "../../assets/tweeter.jpg";
+import telegramicon from "../../assets/telgram.jpg";
+import dcIcon from "../../assets/dc.jpg";
+import mediaIcon from "../../assets/media.jpg";
 
 function ConnectWalletButton({ isActive }) {
     return (
         <> 
             <ul className='externalLinks'>
                 <li>
-                    <a href="https://watch-doge.gitbook.io/watchdogecoin-whitepaper/">
+                    <a href="">
                         <button className="githubSvg">
                             <img src={xicon} alt="xicon" />
                         </button>
@@ -23,10 +24,18 @@ function ConnectWalletButton({ isActive }) {
                         </button>
                     </a>
                 </li>
+                {/* for next phase */}
+                {/* <li>
+                    <a href="https://watch-doge.gitbook.io/watchdogecoin-whitepaper/">
+                        <button className="githubSvg">
+                            <img src={dcIcon} alt="githubicon" />
+                        </button>
+                    </a>
+                </li> */}
                 <li>
                     <a href="https://watch-doge.gitbook.io/watchdogecoin-whitepaper/">
                         <button className="githubSvg">
-                            <img src={githubicon} alt="githubicon" />
+                            <img src={mediaIcon} alt="githubicon" />
                         </button>
                     </a>
                 </li>
